@@ -5,20 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farhod story</title>
+
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-3">test</div>
-            <div class="col-3">test2</div>
-            <div class="col-3">test3</div>
-            <div class="col-3">test4</div>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="home.html">
         </div>
-    </div>
+        <div class="headar_center">
+            <div class="hedar-center-all_categories">
+                <form action="#">
+                    <div class="select_box">
+                        <select id="category" name="category">
+                            <option value="All Categories">All Categories</option>
+                            <option value="Electronics & Digita">Electronics & Digita</option>
+                            <option value="Phones & Tablet">Phones & Tablety</option>
+                            <option value="Fashion & Clothings">Fashion & Clothings</option>
+                            <option value="Telivsion & Monitor">Telivsion & Monitor</option>
+                            <option value="Jewelry & Watches">Jewelry & Watches</option>
+                            <option value="Washing Machine">Washing Machine</option>
+                            <option value="Toys & Hobbies">Toys & Hobbies</option>
 
+                        </select>
+                    </div>
 
+                    <div class="search">
+                        <input type="text" placeholder="Search for products">
+                        <button type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                </form>
+                <div class="hedar-icon">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="count-fevort">0</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span class="count-cart">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
 
 
