@@ -4,11 +4,10 @@
     padding: 0;
     margin: 0;
 }
-
 :root {
 
     --main_color: #ff8716;
-    --p_color: #7b7b7b;
+    --p_color: #fa3706;
     --bg_color: #f3f3f3;
     --white_color: #fff;
     --color_heading: #121416;
@@ -146,6 +145,7 @@ header .top_header .header_icons .icon {
 
 header .top_header .header_icons .icon i {
     font-size: 24px;
+    color: #000;
 }
 
 header .top_header .header_icons .icon .count {
@@ -274,6 +274,7 @@ header .bottom_header .nav_links li.active a {
 .btn {
     padding: 10px 18px;
     text-transform: capitalize;
+    text-decoration: none;
     border-radius: 2px;
     cursor: pointer;
     background: var(--main_color);
