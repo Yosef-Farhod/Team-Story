@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../img/backgrond/1.jpg') no-repeat;
+    background: url('../img/backgrond/1.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -18,10 +18,10 @@ body{
 .page {
 
     width: 420px;
-    background-color: transparent;
+    background-color: #ff8716;
     border: 2px solid rgba(225, 225, 225, 0.2);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
     color: white;
     padding: 30px 40px;
     border-radius: 15px;
